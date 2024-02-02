@@ -12,7 +12,6 @@ window.onload = function() {
     initialize();
 }
 
-
 function initialize() {
 
     for (let r = 0; r < height; r++) {
