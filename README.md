@@ -1,2 +1,3 @@
-# javascriptgame
-My first game project_javasciprt
+# Wordle 
+
+https://emmajeon3526.github.io/javascriptgame/
