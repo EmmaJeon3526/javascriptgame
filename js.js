@@ -1,11 +1,11 @@
-var height = 6;
-var width = 5;
+let height = 6;
+let width = 5;
 
-var row = 0;
-var col = 0;
+let row = 0;
+let col = 0;
 
-var gameOver = false;
-var word = "EARTH";
+let gameOver = false;
+let word = "EARTH";
 
 
 window.onload = function() {
