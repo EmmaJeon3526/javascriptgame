@@ -28,7 +28,6 @@ function initialize() {
 document.addEventListener("keyup", (e) => {
     if (gameOver) return;
 
-    // Check if e.code represents a letter key (A-Z)
     if (/^Key[A-Z]$/.test(e.code)) {
         if (col < width) {
             let currTile = document.getElementById(row.toString() + '-' + col.toString());
@@ -82,21 +81,3 @@ function update() {
     }
 }
 
-
-
-
-
-
-// document.addEventListener("keyup", (e) => {
-//     if (gameOver) return;
-
-//     if ("keyA" <= e.code && e.code <= "keyZ") {
-//         if (col < width) {
-//             let currTile = document.getElementById(row.toString() + '-' + col.toString());
-//             if (currTile.innerText == "") {
-//                 currTile.innerText = e.code[3];
-//                 col += 1;
-//             }
-//         }
-//     }
-// })
